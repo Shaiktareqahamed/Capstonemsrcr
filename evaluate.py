@@ -2,6 +2,7 @@ import os
 import cv2
 import numpy as np
 import math
+import matplotlib.pyplot as plt
 
 def calculate_psnr(img1, img2):
     # Calculate Mean Squared Error (MSE)
